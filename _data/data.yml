@@ -53,7 +53,7 @@ education:
     - degree: PhD in Electrical Engineering
       university: University of Isfahan
       time: 2018 - current
-      details: |
+      details: >
         My main research interests are:
           - Computer Vision
           - Machine Learning
