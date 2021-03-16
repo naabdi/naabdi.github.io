@@ -48,6 +48,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+      My main research interests are:
+          - Computer Vision
+          - Machine Learning
       
 education:
     - degree: PhD in Electrical Engineering
