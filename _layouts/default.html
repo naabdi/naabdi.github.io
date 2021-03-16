@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
+<html lang="{{ page.lang | default: site.lang | default: "fa" }}">
+
+  {%- include head.html -%}
+
   <body>
-    <div class="wrapper">
-      {% include header.html %}
-      {% if site.github.is_project_page %}
-        {% include fork-me.html %}
-      {% endif %}
-      <section>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
         {{ content }}
-      </section>
-      {% include footer.html %}
-    </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
   </body>
+
 </html>

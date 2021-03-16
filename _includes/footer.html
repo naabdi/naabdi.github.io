@@ -1,13 +1,20 @@
-<footer>
-  <div class="nes-container is-rounded brown-border footer">
-    {% if site.github.is_project_page %}
-    <p>
-      <small>
-        Maintained by <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a>
-      </small>
-    </p>
-    {% endif %}
-    <p><i class="nes-jp-logo"></i></p>
-    <p><small>Theme by <a href="https://github.com/julianolf" target="_blank">julianolf</a></small></p>
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+  
+
+      <div class="footer-col footer-col-3">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p style="font-size: small;">{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
   </div>
+
 </footer>

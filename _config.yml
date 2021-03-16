@@ -1,23 +1,56 @@
-title: Jekyll 8bit
-description: A Jekyll theme inspired by classic 8bit games.
-theme: jekyll-theme-8bit
-logo: nes-kirby
-show_downloads: true
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: نریمان عبدی
+#email: n.abdi[at]eng[dot]ui[dot]ac[dot]ir
+description: >- # this means to ignore newlines until "baseurl:"
+ یادداشت‌های برنامه‌نویسی که عاشق یاددهی و یادگیری است.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+author: نریمان
+twitter_username: democracy_ab
+github_username:  naabdi
+linkedin_username: nabdi
+instagram_username: drnabdi
+
+# Build settings
+theme: minima
 plugins:
- - jekyll-paginate
- - jekyll-seo-tag
-paginate: 2
-social:
-  twitter: https://twitter.com/username
-  facebook: https://facebook.com/username
-  github: https://github.com/username
-  youtube: https://youtube.com/channel/ID
-  google: https://plus.google.com/username
-  medium: https://medium.com/@username
-  twitch: https://twitch.com/username
-  reddit: https://www.reddit.com/user/username
-  whatsapp: tel:+5541999999999
-  gmail: mailto:username@domain.net
-  linkedin: https://www.linkedin.com/in/username
-disqus:
-  shortname: jekyll-theme-8bit
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
