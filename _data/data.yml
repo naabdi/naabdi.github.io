@@ -57,7 +57,7 @@ education:
         My main research interests are:
           - Computer Vision
           - Machine Learning
-          
+
     - degree: MSc in Electrical Engineering
       university: Isfahan University of Technology
       time: 2014 - 2016
@@ -69,7 +69,7 @@ projects:
       My game projects
     assignments:
       - title: MATH
-        link: "cafebazaar.ir/app/com.PencilGameStudio.MATH?l=en"
+        link: "https://cafebazaar.ir/app/com.PencilGameStudio.MATH?l=en"
         tagline: "A simple MATH clone game in Unity"
 
       - title: Magic Squares
