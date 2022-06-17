@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
@@ -114,3 +120,4 @@ footer: >
 
 about: >
     HELLO
+
